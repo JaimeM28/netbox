@@ -19,7 +19,6 @@ console-ports:
     type: usb-type-a
   - name: IDRAC
     type: usb-micro-a
-    type: usb-type-a
   - name: Front VGA
     type: other
   - name: Back Console 1
