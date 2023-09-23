@@ -1,0 +1,11 @@
+---
+manufacturer: Dell
+model: PowerVault MD1000
+slug: dell-powervault-md1000
+u_height: 3
+is_full_depth: true
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+  - name: Power 2
+    type: iec-60320-c14

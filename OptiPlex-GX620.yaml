@@ -1,0 +1,36 @@
+---
+manufacturer: Dell
+model: PowerVault MD1000
+slug: dell-powervault-md1000
+u_height: 4.5
+is_full_depth: false
+console-ports:
+  - name: Serial
+    type: de-9
+  - name: Parallel
+    type: db-25
+    type: de-9
+  - name: VGA
+    type: other
+  - name: Front console 1
+    type: usb-type-a
+  - name: Front console 2
+    type: usb-type-a
+  - name: Back console 1
+    type: usb-type-a
+  - name: Back console 2
+    type: usb-type-a
+  - name: Back console 3
+    type: usb-type-a
+  - name: Back console 4
+    type: usb-type-a
+    - name: Back console 5
+    type: usb-type-a
+  - name: Back console 6
+    type: usb-type-a
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+interfaces:
+  - name: Gig-E 1
+    type: 1000base-t
