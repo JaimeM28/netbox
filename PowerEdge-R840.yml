@@ -11,11 +11,28 @@ comments: |
 console-ports:
   - name: Serial
     type: de-9
-module-bays:
-  - name: PSU1
-    position: '1'
-  - name: PSU2
-    position: '2'
+  - name: Front Console 1
+    type: usb-type-a
+  - name: Front Console 2
+    type: usb-type-a
+  - name: Front Console 3
+    type: usb-type-a
+  - name: IDRAC
+    type: usb-micro-a
+    type: usb-type-a
+  - name: Front VGA
+    type: other
+  - name: Back Console 1
+    type: usb-type-a
+  - name: Back Console 2
+    type: usb-type-a
+  - name: Back VGA
+    type: other
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+  - name: Power 2
+    type: iec-60320-c14
 interfaces:
   - name: Gig-E 1
     type: 1000base-t

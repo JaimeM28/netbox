@@ -12,6 +12,7 @@ console-ports:
   - name: Front Console 1
     type: usb-type-a
   - name: Front Console 2
+    type: usb-type-a
   - name: IDRAC
     type: usb-micro-a
     type: usb-type-a
