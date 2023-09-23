@@ -6,18 +6,28 @@ part_number: UCSC-C220-M5SX
 u_height: 1
 is_full_depth: true
 console-ports:
-  - name: Console
+  - name: Console 1
     type: rj-45
+  - name: Console 2
+    type: usb-type-a
+  - name: Console 3
+    type: usb-type-a
+  - name: VGA
+    type: other
+  - name: KVM conector
+    type: other 
+    description: VGA, Serial, USB-A
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+  - name: Power 2
+    type: iec-60320-c14
 interfaces:
-  - name: enp94s0f0
+  - name: LAN 1
     type: 10gbase-t
-  - name: enp94s0f1
+  - name: LAN 2
     type: 10gbase-t
   - name: CIMC
     type: 1000base-t
     mgmt_only: true
-module-bays:
-  - name: PSU1
-    position: '1'
-  - name: PSU2
-    position: '2'
+

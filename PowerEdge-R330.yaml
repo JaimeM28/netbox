@@ -7,8 +7,18 @@ is_full_depth: true
 console-ports:
   - name: Serial
     type: de-9
-  - name: VGA
+  - name: Back VGA
     type: other
+  - name: Front VGA
+    type: other
+  - name: Back console 1
+    type: usb-type-a
+  - name: Back console 2
+    type: usb-type-a
+  - name: Front console 1
+    type: usb-type-a
+  - name: Front console 2
+    type: usb-type-a
 power-ports:
   - name: Power 1
     type: iec-60320-c14
@@ -19,10 +29,6 @@ interfaces:
     type: 1000base-t
   - name: Gig-E 2
     type: 1000base-t
-  - name: Gig-E 3
-    type: 1000base-t
-  - name: Gig-E 4
-    type: 1000base-t
   - name: iDRAC
-    type: 1000base-t
+    type: other
     mgmt_only: true
