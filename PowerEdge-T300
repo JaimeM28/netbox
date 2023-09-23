@@ -1,0 +1,34 @@
+---
+manufacturer: Dell
+model: PowerEdge T300
+slug: dell-poweredge-t300
+u_height: 5
+is_full_depth: true
+console-ports:
+  - name: Serial
+    type: de-9
+  - name: Front Console 1
+    type: usb-type-a
+  - name: Front Console 2
+    type: usb-type-a
+  - name: Front Console 3
+    type: usb-type-a
+  - name: Front Console 4
+    type: usb-type-a
+  - name: Front VGA
+    type: other
+  - name: Back Console 1
+    type: usb-type-a
+  - name: Back Console 2
+    type: usb-type-a
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+interfaces:
+  - name: 10GbE 1
+    type: 1000base-t
+  - name: 10GbE 2
+    type: 1000base-t
+  - name: iDRAC
+    type: 1000base-t
+    mgmt_only: true
