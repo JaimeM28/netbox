@@ -7,17 +7,17 @@ is_full_depth: true
 console-ports:
   - name: Serial
     type: de-9
-  - name: Front Console 1
+  - name: USB Front 1
     type: usb-type-a
-  - name: Front Console 2
+  - name: USB Front 2 
     type: usb-type-a
-  - name: Front VGA
+  - name: VGA FRONT
     type: other
-  - name: Back Console 1
+  - name: USB Back 1
     type: usb-type-a
-  - name: Back Console 2
+  - name: USB Back 2
     type: usb-type-a
-  - name: Back VGA
+  - name: VGA Back
     type: other
 power-ports:
   - name: Power 1

@@ -1,0 +1,38 @@
+manufacturer: Tripp Lite
+model: B004 008
+slug: tripp-lite-b004-008
+u_height: 1
+is_full_depth: false
+console-ports:
+  - name: VGA
+    type: other
+  - name: mouse
+    type: other
+    description: PS/2
+  - name: teclado
+    type: other
+    description: PS/2
+  - name: CPU 1
+    type: other 
+    description: PS/2 P750-006
+  - name: CPU 2
+    type: other 
+    description: PS/2 P750-006
+  - name: CPU 3
+    type: other 
+    description: PS/2 P750-006
+  - name: CPU 4
+    type: other 
+    description: PS/2 P750-006
+  - name: CPU 5
+    type: other 
+    description: PS/2 P750-006
+  - name: CPU 6
+    type: other 
+    description: PS/2 P750-006
+  - name: CPU 7
+    type: other 
+    description: PS/2 P750-006
+  - name: CPU 8
+    type: other 
+    description: PS/2 P750-006

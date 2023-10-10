@@ -1,0 +1,39 @@
+---
+manufacturer: Dell
+model: SCv3020
+slug: dell-scv3020
+u_height: 3
+is_full_depth: true
+console-ports:
+  - name: USB 1
+    type: usb-type-a
+  - name: serie 1
+    type: usb-micro-a
+  - name: MGMT 1
+    type: rj-45 
+  - name: USB 2
+    type: usb-type-a
+  - name: serie 2
+    type: usb-micro-a
+  - name: MGMT 2
+    type: rj-45 
+power-ports:
+  - name: Power 1
+    type: iec-60320-c14
+interfaces:
+  - name: Puerto 1 (1)
+    type: 10gbase-t
+  - name: Puerto 2 (1)
+    type: 10gbase-t
+  - name: Puerto 3 (1)
+    type: 10gbase-t
+  - name: Puerto 4 (1)
+    type: 10gbase-t
+  - name: Puerto 1 (2)
+    type: 10gbase-t
+  - name: Puerto 2 (2)
+    type: 10gbase-t
+  - name: Puerto 3 (2)
+    type: 10gbase-t
+  - name: Puerto 4 (2)
+    type: 10gbase-t
