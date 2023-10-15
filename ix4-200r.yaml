@@ -1,3 +1,4 @@
+---
 manufacturer: iomega
 model: ix4-200R 
 slug: iomega-ix4-200R 
@@ -8,7 +9,7 @@ console-ports:
     type: usb-type-a
   - name: USB 2
     type: usb-type-a
-  - name: USB 2
+  - name: USB 3
     type: usb-type-a
 interfaces:
   - name: 1

@@ -1,0 +1,9 @@
+---
+manufacturer: Dell
+model: UPS 27000w
+slug: dell-ups-2700w
+u_height: 3
+is_full_depth: true
+power-ports:
+  - name: EBM Port
+    type: other

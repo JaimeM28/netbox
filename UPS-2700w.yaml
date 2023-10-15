@@ -1,0 +1,28 @@
+---
+manufacturer: Dell
+model: UPS 27000w
+slug: dell-ups-2700w
+u_height: 3
+is_full_depth: true
+console-ports:
+  - name: serial
+    type: de-9
+  - name: USB 
+    type: usb-type-a
+power-ports:
+  - name: Power Port
+    type: iec-60320-c20
+power-outlets: 
+  - name: power outlet 1
+  - type: iec-60320-c13
+  - name: power outlet 2
+  - type: iec-60320-c13
+  - name: power outlet 3
+  - type: nema-5-20p
+  - name: power outlet 4
+  - type: nema-5-20p
+  - name: power outlet 
+  - type: nema-l5-20p
+  - name: EBM
+  - type: other
+
